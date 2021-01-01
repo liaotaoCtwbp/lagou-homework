@@ -1,1 +1,12 @@
-test=1
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://106.75.233.145:3306/springcloud?useSSL=false&serverTimezone=Hongkong&characterEncoding=utf-8&autoReconnect=true
+    username: root
+    password: myself333.
+  jpa:
+    database: MySQL
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
